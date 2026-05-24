@@ -23,7 +23,7 @@ import zipfile
 from pathlib import Path
 
 REPO_API = "https://api.github.com/repos/{owner}/{repo}/releases/{tag_or_latest}"
-DEFAULT_OWNER_REPO = ("OWNER_PLACEHOLDER", "renderdoc-mcp")
+DEFAULT_OWNER_REPO = ("lukaasm", "renderdoc-mcp")
 ASSET_NAME = "renderdoc-pymodules-py{py_major_minor}-win64.zip"
 EXPECTED_FILES = ("renderdoc.pyd", "renderdoc.dll", "d3dcompiler_47.dll", "renderdoc.json")
 
